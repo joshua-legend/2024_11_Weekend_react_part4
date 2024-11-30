@@ -6,6 +6,7 @@ import Toggle from "./common/Toggle";
 import FruitsButton from "./common/FruitsButton";
 import Count from "./common/Count";
 import Input from "./common/Input";
+import Register from "./common/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <FruitsButton a={"🍔"} b={"🍕"} /> */}
       <Count num={0} />
       <Input />
+      <Register />
     </div>
   );
 }
