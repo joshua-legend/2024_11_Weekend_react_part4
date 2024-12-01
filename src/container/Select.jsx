@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StatusButton from "../common/StatusButton";
+import StatusButton from "../common/Buttons/StatusButton";
 
 const Select = ({ menu }) => {
   const [buttons, setButtons] = useState(
